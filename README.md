@@ -13,10 +13,10 @@ __import query.min.js__
 			  method: Options.method,
 			  data: Options.data
 			})
-			.always(() => {
+			.always(function() {
 			  //.. read this before other functions
 			})
-			.fail((err) => {
+			.fail(function(err) {
 			  alert(error.message);
 			})
 	}
